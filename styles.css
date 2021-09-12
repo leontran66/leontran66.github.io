@@ -53,7 +53,6 @@ a:visited {
   background-color: #262626;
   text-align: center;
   font-size: 1.5em;
-  color: #ffffff;
   box-shadow: 0 -2px 1px #262626;
 }
 
@@ -61,6 +60,10 @@ a:visited {
   display: inline-block;
   padding: 0.5em 1em;
   list-style-type: none;
+}
+
+.footer li a {
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
